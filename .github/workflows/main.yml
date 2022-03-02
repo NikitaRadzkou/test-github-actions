@@ -8,6 +8,6 @@ jobs:
         uses: actions/checkout@v3.0.0
       - name: Cypress.io
         uses: cypress-io/github-action@v2.9.7
-        with: 
+        with:
+          install: npm i
           start: npm start
-        
